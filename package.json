@@ -47,8 +47,8 @@
     "@stdlib/math-base-special-sin": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-base-linspace": "^0.0.x",
     "@stdlib/array-incrspace": "^0.0.x",
-    "@stdlib/array-linspace": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/constants-float64-eps": "^0.0.x",
     "@stdlib/constants-float64-ninf": "^0.0.x",
