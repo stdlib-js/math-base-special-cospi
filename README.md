@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-cospi/tags). For example,
+
+```javascript
 import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@v0.3.0-deno/mod.js';
 ```
 
@@ -75,7 +80,7 @@ y = cospi( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@v0.3.0-deno/mod.js';
+import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@deno/mod.js';
 
 var x = linspace( -100.0, 100.0, 100 );
 
