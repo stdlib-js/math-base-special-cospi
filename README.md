@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@esm/index.mjs';
+import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@v0.4.0-esm/index.mjs';
 ```
 
 #### cospi( x )
@@ -80,7 +80,7 @@ y = cospi( NaN );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@esm/index.mjs';
+import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@v0.4.0-esm/index.mjs';
 
 var x = linspace( -100.0, 100.0, 100 );
 
