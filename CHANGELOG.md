@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-22)
+## Unreleased (2025-04-05)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`1e85369`](https://github.com/stdlib-js/stdlib/commit/1e8536951a859bc8e78a5791a99cbc2553e1df34) - **test:** add tests for IEEE 754-2019 compliance [(#6560)](https://github.com/stdlib-js/stdlib/pull/6560) _(by Karan Anand)_
 -   [`b103cae`](https://github.com/stdlib-js/stdlib/commit/b103caebeb565cdcdc08a76cd131ad1ea0b55a27) - **bench:** update random value generation [(#6301)](https://github.com/stdlib-js/stdlib/pull/6301) _(by Harsh, stdlib-bot)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Harsh
+-   Karan Anand
 
 </section>
 

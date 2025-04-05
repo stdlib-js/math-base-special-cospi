@@ -55,6 +55,7 @@
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.2.2",
     "@stdlib/array-base-linspace": "^0.2.2",
+    "@stdlib/assert-is-positive-zero": "^0.2.2",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/constants-float64-ninf": "^0.2.2",
     "@stdlib/constants-float64-pinf": "^0.2.2",
