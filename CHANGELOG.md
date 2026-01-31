@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-13)
+## Unreleased (2026-01-31)
 
 <section class="commits">
 
@@ -15,11 +15,11 @@
 -   [`9bee6e1`](https://github.com/stdlib-js/stdlib/commit/9bee6e10100c14195fb1b13bcb4df244885edb64) - **chore:** add structured package data for packages in `math/base/special` [(#8052)](https://github.com/stdlib-js/stdlib/pull/8052) _(by Gunj Joshi, Athan Reines)_
 -   [`6f85067`](https://github.com/stdlib-js/stdlib/commit/6f8506775cdf2b3edf740216340ff7a0a82677dc) - **test:** fix malformed test descriptions from strictEqual migration _(by Philipp Burckhardt)_
 -   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
--   [`4a76339`](https://github.com/stdlib-js/stdlib/commit/4a76339547e841d83692c3d8e5f364568de055d5) - **docs:** replace manual `for` loop in examples [(#6612)](https://github.com/stdlib-js/stdlib/pull/6612) _(by Harsh)_
+-   [`4a76339`](https://github.com/stdlib-js/stdlib/commit/4a76339547e841d83692c3d8e5f364568de055d5) - **docs:** replace manual `for` loop in examples [(#6612)](https://github.com/stdlib-js/stdlib/pull/6612) _(by Harsh Yadav)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`d0c1c2b`](https://github.com/stdlib-js/stdlib/commit/d0c1c2b9a307016b894d7fa3d500c98558bbe197) - **test:** add tests for IEEE 754-2019 compliance [(#6558)](https://github.com/stdlib-js/stdlib/pull/6558) _(by Karan Anand)_
 -   [`1e85369`](https://github.com/stdlib-js/stdlib/commit/1e8536951a859bc8e78a5791a99cbc2553e1df34) - **test:** add tests for IEEE 754-2019 compliance [(#6560)](https://github.com/stdlib-js/stdlib/pull/6560) _(by Karan Anand)_
--   [`b103cae`](https://github.com/stdlib-js/stdlib/commit/b103caebeb565cdcdc08a76cd131ad1ea0b55a27) - **bench:** update random value generation [(#6301)](https://github.com/stdlib-js/stdlib/pull/6301) _(by Harsh, stdlib-bot)_
+-   [`b103cae`](https://github.com/stdlib-js/stdlib/commit/b103caebeb565cdcdc08a76cd131ad1ea0b55a27) - **bench:** update random value generation [(#6301)](https://github.com/stdlib-js/stdlib/pull/6301) _(by Harsh Yadav, stdlib-bot)_
 
 </details>
 
@@ -35,7 +35,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Gunj Joshi
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 

@@ -44,18 +44,18 @@
     "@stdlib/constants-float64-pi": "^0.2.2",
     "@stdlib/math-base-assert-is-infinite": "^0.2.2",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
-    "@stdlib/math-base-napi-unary": "^0.2.3",
+    "@stdlib/math-base-napi-unary": "^0.2.5",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/math-base-special-cos": "^0.3.0",
     "@stdlib/math-base-special-floor": "^0.2.3",
     "@stdlib/math-base-special-fmod": "^0.1.0",
     "@stdlib/math-base-special-sin": "^0.3.0",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.2.2",
     "@stdlib/assert-is-positive-zero": "^0.2.2",
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/constants-float64-ninf": "^0.2.2",
     "@stdlib/constants-float64-pinf": "^0.2.2",
@@ -95,81 +95,6 @@
     "trigonometry",
     "radians"
   ],
-  "__stdlib__": {
-    "scaffold": {
-      "$schema": "math/base@v1.0",
-      "base_alias": "cospi",
-      "alias": "cospi",
-      "pkg_desc": "compute the cosine of a double-precision floating-point number times π",
-      "desc": "computes the cosine of a double-precision floating-point number times π",
-      "short_desc": "cosine of a number times π",
-      "parameters": [
-        {
-          "name": "x",
-          "desc": "input value",
-          "type": {
-            "javascript": "number",
-            "jsdoc": "number",
-            "c": "double",
-            "dtype": "float64"
-          },
-          "domain": [
-            {
-              "min": "-infinity",
-              "max": "infinity"
-            }
-          ],
-          "rand": {
-            "prng": "random/base/uniform",
-            "parameters": [
-              -50,
-              50
-            ]
-          },
-          "example_values": [
-            -3.25,
-            0.125,
-            1.6,
-            -0.45,
-            2.75,
-            -7.3,
-            4.2,
-            -5.8,
-            0,
-            9.1,
-            -2.2,
-            3.33,
-            -0.01,
-            0.5,
-            -1.75,
-            6.7,
-            -4.9,
-            8.8,
-            -10.4,
-            12.6
-          ]
-        }
-      ],
-      "output_policy": "real_floating_point_and_generic",
-      "returns": {
-        "desc": "result",
-        "type": {
-          "javascript": "number",
-          "jsdoc": "number",
-          "c": "double",
-          "dtype": "float64"
-        }
-      },
-      "keywords": [
-        "cos",
-        "cosine",
-        "pi"
-      ],
-      "extra_keywords": [
-        "math.cos"
-      ]
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
