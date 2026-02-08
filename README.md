@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@deno/mod.js';
+import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@v0.4.1-deno/mod.js';
 ```
 
 #### cospi( x )
@@ -76,7 +76,7 @@ y = cospi( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@deno/mod.js';
+import cospi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@v0.4.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
