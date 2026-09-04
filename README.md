@@ -35,6 +35,22 @@ limitations under the License.
 
 > Compute the [cosine][@stdlib/math/base/special/cos] of a number times [π][@stdlib/constants/float64/pi].
 
+<section class="intro">
+
+The function computes the [cosine][cosine] of a number scaled by `π`
+
+<!-- <equation class="equation" label="eq:cospi_function" align="center" raw="y = \cos(\pi x)" alt="Cosine of pi times x"> -->
+
+```math
+y = \cos(\pi x)
+```
+
+<!-- </equation> -->
+
+</section>
+
+<!-- /.intro -->
+
 <section class="installation">
 
 ## Installation
@@ -278,6 +294,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/math-base-special-cospi/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-cospi/main/LICENSE
+
+[cosine]: https://en.wikipedia.org/wiki/Cosine
 
 [@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi
 
